@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const Sidebar = () => {
     const navs = [
         { id: 0, name: 'dashboard', path: '#', icon: `` },
-        { id: 1, name: 'users', path: '#' },
+        { id: 1, name: 'users', path: '/user-list' },
 
     ]
     return (
